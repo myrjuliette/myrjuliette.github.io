@@ -185,6 +185,7 @@ nav .menu_principal .menu_2
 	vertical-align: middle;
 	word-wrap: break-word;
 	flex: 1 1 auto;
+	flex-direction: column;
 	flex-flow: column wrap;
 	
 
@@ -248,7 +249,7 @@ h2
 
 .encart_articles
 {
-	height: 500px;
+
 	text-align: justify;
 	overflow: hidden;
 	overflow-wrap: break-word;
@@ -260,12 +261,6 @@ h2
 	min-width: 700px;
 	
 
-}
-
-.encart_articles div
-{
-	display: flex;
-	flex:1;
 }
 
 .encart_articles:hover
@@ -342,8 +337,7 @@ a.bouton_lire_plus:hover{
 
 .debut_article
 {
-	overflow: written;
-	overflow-wrap:break-word;
+	height: 400px;
 }
 
 .article
@@ -394,7 +388,7 @@ a.bouton_lire_plus:hover{
 	overflow-wrap: break-word;
 	margin: auto;
 	width: 75%;
-	height: 75%;
+	height: 70%;
 	text-align: justify;
 	line-height: 1.4em;
 }
