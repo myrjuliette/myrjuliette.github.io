@@ -1,4 +1,4 @@
-
+/*
 @font-face {
     font-family: 'police_corps';
     src: url('/polices/GenBkBasR.ttf') format('ttf');
@@ -20,9 +20,11 @@
 }
 
 @font-face {
-	font-family: 'police_titre';
-	src: url('polices/Abril-Fatface-Regular.otf') format('otf');
+	font-family: "police_titre";
+	src: url('/polices/YesevaOne-Regular.ttf') format('ttf');
 }
+*/
+
 
 
 #site-inner
@@ -33,7 +35,9 @@
 
 body
 {
-	font-family: 'police_corps', Impact;
+
+	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
+
 	
 }
 
@@ -251,7 +255,7 @@ nav a
 	text-decoration: none;  /* pour enlever le trait sous le lien  */
 	color: #ffffff;
 	font-size: 1em;
-	font-family: 'police_titre';
+	font-family: 'Yeseva One', serif;
 	font-style: underline;
 }
 
@@ -259,12 +263,12 @@ nav a
 p
 {
 	font-size: 1.3em;
-	font-family:'police_corps';
+	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
 }
 
 h2
 {
-	font-family: 'police_titre', serif;
+	font-family: 'Yeseva One', serif;
 	font-weight: bold;
 	font-size: 2em;
 	text-align: center;
@@ -353,7 +357,7 @@ h2
 {
 	width: 40%;
 	background-color: rgb(207, 167, 50);
-	font-family: 'police_corps';
+	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
 	display:flex;
 	justify-content: center;
 	align-items: center;
@@ -452,7 +456,8 @@ a:visited
 
 .debut_article
 {
-	font-family:'police_corps_bold_italic';
+	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
+	
 }
 
 
