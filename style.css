@@ -318,16 +318,24 @@ h2
 	padding: 0;
 }
 
-.img_recette
-{
-	
-}
 
 .encart_articles .img_recette
 {
 	flex:1;
 
-	background: no-repeat height(100%) url("images/test1.JPG");
+}
+
+.img_recette_contenu
+{
+	display: flex;
+	overflow: hidden;
+	align-items: baseline;
+	width:100%;
+	height: 100%;
+	background-attachment: local;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
 }
 
 
