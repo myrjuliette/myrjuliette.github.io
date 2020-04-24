@@ -161,7 +161,7 @@ nav .menu_principal
 	flex-wrap: wrap;
 	text-indent: 10px;
     line-height: 55px;
-	font-color: green;
+	color: white;
     margin: 10px;
     height: 55px;
 	text-align: center;
@@ -249,7 +249,7 @@ nav .menu_principal .menu_2 .menu_3
 nav a
 {
 	text-decoration: none;  /* pour enlever le trait sous le lien  */
-	color: green;
+	color: white;
 	font-size: 1em;
 	font-family: 'police_titre';
 	font-style: underline;
@@ -322,7 +322,7 @@ h2
 .encart_articles .img_recette
 {
 	flex:1;
-	border: 2px solid black;
+
 	background: no-repeat height(100%) url("images/test1.JPG");
 }
 
