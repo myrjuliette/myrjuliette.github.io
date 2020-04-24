@@ -161,7 +161,7 @@ nav .menu_principal
 	flex-wrap: wrap;
 	text-indent: 10px;
     line-height: 55px;
-	color: white;
+	color: #ffffff;
     margin: 10px;
     height: 55px;
 	text-align: center;
@@ -249,7 +249,7 @@ nav .menu_principal .menu_2 .menu_3
 nav a
 {
 	text-decoration: none;  /* pour enlever le trait sous le lien  */
-	color: white;
+	color: #ffffff;
 	font-size: 1em;
 	font-family: 'police_titre';
 	font-style: underline;
@@ -278,7 +278,7 @@ h2
 	flex-wrap: wrap;
 	justify-content: space-around;
 
-	background: white;
+	background: #ffffff;
 	
 }
 
@@ -388,7 +388,7 @@ a.bouton_lire_plus:hover{
 	display: flex;
 	flex-direction: row;
 	justify-content: space-around;
-	background: white;
+	background: #ffffff;
 }
 
 .article .article_img
@@ -478,7 +478,7 @@ footer section
 
 footer div
 {
-	border-top: 1px solid white;
+	border-top: 1px solid #ffffff;
 	flex:1;
 	text-align: center;
 }
