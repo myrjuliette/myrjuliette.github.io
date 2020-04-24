@@ -311,18 +311,10 @@ h2
 }
 
 
-.img_recette img
-{
-	width:100%;
-	height: 100%;
-	padding: 0;
-}
-
 
 .encart_articles .img_recette
 {
 	flex:1;
-
 }
 
 .img_recette_contenu
