@@ -303,6 +303,24 @@ h2
 
 }
 
+@media only screen and (max-width: 1200px) {.encart_articles
+{
+	width: 100%;
+}
+}
+
+@media only screen and (max-width: 1600px) {.encart_articles
+{
+	width: 50%;
+}
+}
+
+@media only screen and (min-width: 1601px) {.encart_articles
+{
+	width: 33.3333333%;
+}
+}
+
 .encart_articles:hover
 {
 	
@@ -338,6 +356,13 @@ h2
 @media only screen and (min-width: 1601px) {.encart_articles:nth-of-type(6n+4) .img_recette, .encart_articles:nth-of-type(6n+5) .img_recette, .encart_articles:nth-of-type(6n+6) .img_recette
 {
 	order: 2;
+}
+}
+
+/* taille 1 article sur la longueur + tout petit*/
+@media only screen and (max-width: 680px) {.encart_articles
+{
+	flex-direction: column;
 }
 }
 
@@ -475,7 +500,7 @@ a.bouton_lire_plus:hover{
 	
 a:visited
 {
-	color: rgb(28,8,161);
+	
 }
 
 .corps_article
@@ -535,23 +560,33 @@ footer
 
 }
 
+#footer-top
+{
+	display:flex;
+	flex-direction: row;
+	flex-wrap: non-wrap;
+	flex:1;
+}
+
 footer section
 {
+	/*
 	display: flex;
-	flex-direction: row;
+	flex:1;
 	flex-wrap: wrap;
 	justify-content: space-around;
 	align-content: stretch;
+	*/
 
 }
 
 footer div
 {
-	/*border-top: 1px solid #ffffff;*/
+	/*border-top: 1px solid #ffffff;
 	flex:1;
-	text-align: center;
+	text-align: center;*/
 }
-}
+
 
 
 /* commentaire */
