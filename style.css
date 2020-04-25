@@ -318,6 +318,16 @@ h2
 	flex:1;
 }
 
+.encart_articles:nth-of-type(4n+3) .img_recette
+{
+	order: 2;
+}
+
+.encart_articles:nth-of-type(4n+4) .img_recette
+{
+	order: 2;
+}
+
 .img_recette_contenu
 {
 	display: flex;
