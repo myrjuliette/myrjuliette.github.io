@@ -315,8 +315,10 @@ h2
 
 .encart_articles .img_recette
 {
-	flex:1;
+	display: flex;
+	width: 50%;
 }
+
 
 .encart_articles:nth-of-type(4n+3) .img_recette
 {
@@ -348,6 +350,7 @@ h2
 	flex:1;
 	flex-direction: column;
 	padding: 10px;
+	width: 50%;
 
 }
 
