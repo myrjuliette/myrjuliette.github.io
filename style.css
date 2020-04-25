@@ -319,16 +319,28 @@ h2
 	width: 50%;
 }
 
-
-.encart_articles:nth-of-type(4n+3) .img_recette
+/* taille 1 article sur la longueur*/
+@media only screen and (max-width: 1200px) {.encart_articles:nth-of-type(2n+1) .img_recette
 {
 	order: 2;
 }
+}
 
-.encart_articles:nth-of-type(4n+4) .img_recette
+/* taille 2 articles sur la longueur*/
+@media only screen and (max-width: 1600px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
 {
 	order: 2;
 }
+}
+
+
+/* taille 3 articles sur la longueur*/
+@media only screen and (min-width: 1601px) {.encart_articles:nth-of-type(6n+4) .img_recette, .encart_articles:nth-of-type(6n+5) .img_recette, .encart_articles:nth-of-type(6n+6) .img_recette
+{
+	order: 2;
+}
+}
+
 
 .img_recette_contenu
 {
@@ -370,7 +382,8 @@ h2
 .encart_articles .bouton_lire_plus
 {
 	width: 40%;
-	background-color: rgb(207, 167, 50);
+	/*background-color: rgb(207, 167, 50);*/
+	background-color: 	#D4AF37;
 	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
 	display:flex;
 	justify-content: center;
@@ -470,7 +483,47 @@ a:visited
 	text-align: justify;
 }
 
+#articles_precedents
+{
+	background: rgb(78, 81, 82);
+	padding: 1em;
+}
 
+#articles_precedents div
+{
+	display: flex;
+	padding: 0;
+}
+
+#articles_precedents button
+{
+	margin: auto;
+	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
+	font-size: 1.3em;
+	color: #ffffff;
+	background-color: #353636;
+	transition: opacity .3s;
+	padding: 0.5em;
+	width: 20%;
+	
+
+	display:flex;
+	justify-content: center;
+	align-items: center;
+	margin:auto;
+	border-radius:0.12em;
+	border: #353636;
+	box-sizing: border-box;
+	text-decoration:none;
+	text-align:center;
+	text-transform: uppercase;
+	
+}
+
+#articles_precedents button:hover
+{
+	background-color: #5d5e5e;
+}
 
 
 footer
@@ -478,8 +531,7 @@ footer
 	background: rgb(78, 81, 82);
 	display: flex;
 	flex-direction: column;
-	color: #FFFFFF
-	bottom: 0;
+	color: #FFFFFF;
 
 }
 
@@ -495,7 +547,7 @@ footer section
 
 footer div
 {
-	border-top: 1px solid #ffffff;
+	/*border-top: 1px solid #ffffff;*/
 	flex:1;
 	text-align: center;
 }
