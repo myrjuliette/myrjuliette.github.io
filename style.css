@@ -309,7 +309,7 @@ h2
 }
 }
 
-@media only screen and (max-width: 1600px) {.encart_articles
+@media only screen and (min-width: 1200px and max-width: 1600px) {.encart_articles
 {
 	width: 50%;
 }
@@ -345,7 +345,7 @@ h2
 }
 
 /* taille 2 articles sur la longueur*/
-@media only screen and (max-width: 1600px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
+@media only screen and (min-width: 1200px and max-width: 1600px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
 {
 	order: 2;
 }
