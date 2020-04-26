@@ -168,7 +168,7 @@ nav a:hover{
 
 .sous{
     display: none;
-    box-shadow: 0px 1px 2px #CCC;
+    box-shadow: 0px 1px 2px #D4AF37;
     background-color: #353636;
     position: absolute;
     width: 100%;
@@ -188,9 +188,37 @@ nav a:hover{
 }
 .sous a:hover{
     border-bottom: none;
-    background-color: RGBa(200,200,200,0.1);
+    background-color: #5d5e5e;
+    border-bottom: 2px solid #D4AF37;
 }
 
+
+.sous-2{
+    display: none;
+    box-shadow: 0px 1px 2px #CCC;
+    background-color: #353636;
+    position: absolute;
+    width: 100%;
+    z-index: 10;
+}
+.menu_deroulant-2:hover .sous-2{
+    display: flex;
+    flex-flow: column wrap;
+}
+.sous-2 li{
+    flex: 1 1 auto;
+    text-align: left;
+}
+.sous-2 a{
+    padding: 10px;
+    border-bottom: none;
+}
+.sous-2 a:hover{
+    border-bottom: none;
+    background-color: #5d5e5e;
+	border-bottom: 2px solid #D4AF37;
+	
+}
 
 .menu_toggle
 {
