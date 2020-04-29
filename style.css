@@ -271,7 +271,7 @@ h2
 	flex-direction: row;
 	flex:1;
 	justify-content: space-between;
-	min-width: 700px;
+	/*min-width: 700px;*/
 	
 
 }
@@ -279,18 +279,22 @@ h2
 @media only screen and (max-width: 1200px) {.encart_articles
 {
 	width: 100%;
+	min-width: 600px;
+	max-width: 1200px;
 }
 }
 
 @media only screen and (min-width: 1200px and max-width: 1500px) {.encart_articles
 {
 	width: 50%;
+	min-width: 700px;
 }
 }
 
 @media only screen and (min-width: 1501px) {.encart_articles
 {
 	width: 33.3333333%;
+	min-width: 500px;
 }
 }
 
