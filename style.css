@@ -121,11 +121,7 @@ header
 }
 
 	
-.citation
-{
-	border-left: 2px solid black;
-	padding: 10px;
-}
+
 
 
 /* menu   */
@@ -171,8 +167,8 @@ nav a:hover{
     box-shadow: 0px 1px 2px #D4AF37;
     background-color: #353636;
     position: absolute;
-    width: 100%;
     z-index: 10;
+	
 }
 .menu_deroulant:hover .sous{
     display: flex;
@@ -286,13 +282,13 @@ h2
 }
 }
 
-@media only screen and (min-width: 1200px and max-width: 1600px) {.encart_articles
+@media only screen and (min-width: 1200px and max-width: 1500px) {.encart_articles
 {
 	width: 50%;
 }
 }
 
-@media only screen and (min-width: 1601px) {.encart_articles
+@media only screen and (min-width: 1501px) {.encart_articles
 {
 	width: 33.3333333%;
 }
@@ -322,7 +318,7 @@ h2
 }
 
 /* taille 2 articles sur la longueur*/
-@media only screen and (min-width: 1200px and max-width: 1600px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
+@media only screen and (min-width: 1200px and max-width: 1500px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
 {
 	order: 2;
 }
@@ -330,7 +326,7 @@ h2
 
 
 /* taille 3 articles sur la longueur*/
-@media only screen and (min-width: 1601px) {.encart_articles:nth-of-type(6n+4) .img_recette, .encart_articles:nth-of-type(6n+5) .img_recette, .encart_articles:nth-of-type(6n+6) .img_recette
+@media only screen and (min-width: 1501px) {.encart_articles:nth-of-type(6n+4) .img_recette, .encart_articles:nth-of-type(6n+5) .img_recette, .encart_articles:nth-of-type(6n+6) .img_recette
 {
 	order: 2;
 }
@@ -416,46 +412,6 @@ a.bouton_lire_plus:hover{
 	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
 }
 
-.article
-{
-	width: 100%;
-	display: flex;
-	flex-direction: row;
-	justify-content: space-around;
-	background: #ffffff;
-}
-
-.article .article_img
-{
-	min-height: 100%;
-	width: 50%;
-	position: sticky;
-	text-align: justify;
-	overflow: hidden;
-	overflow-wrap: break-word;
-	display: flex;
-	flex-wrap: wrap;
-	flex-direction: row;
-	flex:1;
-	justify-content: space-between;
-	min-width: 700px;
-}
-
-.article .article_texte
-{
-	display: flex;
-	width:50%;
-	flex-flow: column;
-	
-}
-
-.article_texte
-{
-	display: flex;
-	margin-bottom: 200px;
-	margin-top: 200px;
-	border: 2px solid black;
-}
 
 .debut_article p
 {
@@ -471,19 +427,12 @@ a.bouton_lire_plus:hover{
 }
 	
 	
-	
-
-
-	
 a:visited
 {
 	
 }
 
-.corps_article
-{
-	text-align: justify;
-}
+
 
 #articles_precedents
 {

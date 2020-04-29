@@ -1,0 +1,123 @@
+
+#site-inner
+{
+	background: #ffffff;
+	right: 0;
+	width: 50%;
+	position: relative;
+	
+}
+
+
+
+.corps_article
+{
+	text-align: justify;
+}
+
+.article-inner
+{
+	display: flex;
+	right: 0;
+	left: 25%;
+	width: 50%;
+	max-width: 72%;
+	margin-top: 50px;
+	margin-right: auto;
+	margin-left: auto;
+	margin-bottom: 0;
+	position: relative;
+	
+}
+
+.article-inner:before
+{
+	left: 50%;
+	position: absolute;
+	top:0;
+}
+
+.article-inner:after
+{
+	background: yellow;
+	height: 36px;
+	width: 36px;
+}
+
+
+
+
+.article .article_texte
+{
+	display: flex;
+	width:50%;
+	flex-flow: column;
+	
+}
+
+.article_texte
+{
+	display: flex;
+	margin-bottom: 200px;
+	margin-top: 200px;
+	border: 2px solid black;
+	font-size: 1.4em;
+	overflow-x: hidden;
+}
+
+
+.citation
+{
+	border-left: 2px solid black;
+	padding: 10px;
+}
+
+
+
+.img_principale_contenu
+{
+	display: flex;
+	overflow: hidden;
+	position: fixed;
+	align-items: baseline;
+	height: 100%;
+	width: 50%;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center center;
+	left: 0;
+}
+
+
+.bandeau_bas
+{
+	display: flex;
+	overflow: hidden;
+	align-items: baseline;
+	
+	width:100%;
+	z-index: -1;
+	margin-bottom: auto;
+	
+	
+}
+
+.bandeau_bas_img
+{
+	display: flex;
+	overflow: hidden;
+	align-items: baseline;
+	
+	width:100%;
+
+	z-index: -1;
+	padding-bottom: 40%;
+	background-image: url('images/macarons_accueil.JPG');
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	background-size: contain;
+	background-position: top center;
+	
+	
+}
