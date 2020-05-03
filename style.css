@@ -284,14 +284,15 @@ h2
 }
 }
 
-@media only screen and (min-width: 1200px and max-width: 1500px) {.encart_articles
+@media only screen and (min-width: 1201px and max-width: 1600px) {.encart_articles
 {
 	width: 50%;
 	min-width: 700px;
+	max-width: 1600px;
 }
 }
 
-@media only screen and (min-width: 1501px) {.encart_articles
+@media only screen and (min-width: 1601px) {.encart_articles
 {
 	width: 33.3333333%;
 	min-width: 500px;
@@ -322,7 +323,7 @@ h2
 }
 
 /* taille 2 articles sur la longueur*/
-@media only screen and (min-width: 1200px and max-width: 1500px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
+@media only screen and (min-width: 1201px and max-width: 1600px) {.encart_articles:nth-of-type(4n+3) .img_recette, .encart_articles:nth-of-type(4n+4) .img_recette
 {
 	order: 2;
 }
@@ -330,7 +331,7 @@ h2
 
 
 /* taille 3 articles sur la longueur*/
-@media only screen and (min-width: 1501px) {.encart_articles:nth-of-type(6n+4) .img_recette, .encart_articles:nth-of-type(6n+5) .img_recette, .encart_articles:nth-of-type(6n+6) .img_recette
+@media only screen and (min-width: 1601px) {.encart_articles:nth-of-type(6n+4) .img_recette, .encart_articles:nth-of-type(6n+5) .img_recette, .encart_articles:nth-of-type(6n+6) .img_recette
 {
 	order: 2;
 }
