@@ -302,7 +302,7 @@ h2
 
 .encart_articles:hover
 {
-	
+	outline: inset thick;
 	box-shadow: inset 0px 0px 3px 12px rgba(70,74,84,0.6);
 	-webkit- box-shadow: inset 0px 0px 3px 12px rgba(70,74,84,0.6); /* pour firefox */
 	-moz- box-shadow: inset 0px 0px 3px 12px rgba(70,74,84,0.6); /* pour chrome, safari et android */
