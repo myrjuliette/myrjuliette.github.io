@@ -8,11 +8,20 @@
 	
 }
 
+.article-inner-contenu
+{
+	display: flex;
+}
 
 
-.corps_article
+.article-recette-contenu
 {
 	text-align: justify;
+	font-family: 'Gentium Book Basic', serif, 'Roboto', serif;
+
+	line-height: 1.6em;
+	font-size: 1.3em;
+	
 }
 
 .article-inner
@@ -44,18 +53,23 @@
 .article-droite
 {
 	display: flex;
-	flex: 1;
+	/*flex: 1;
 	flex-flow: column;
+	overflow-x: hidden;
+	*/
 
-	margin-top: 150px;
-	margin-left: 20px;	
-	font-size: 1.3em;
+	margin-top: 15rem;
+	margin-bottom: 12rem;
 
+	width: 50%;
+	
 }
 
 .article-recette
 {
-		overflow-x: hidden;
+	/* overflow-x: hidden; */
+	margin-left: 3rem;
+	margin-right: 3rem;
 }
 
 .citation
@@ -105,9 +119,9 @@
 	font-family: 'Yeseva One', serif;
 	font-size: 2rem;
 	color: #FFFFFF;
-	margin-left: 5rem;
+	margin-left: 3rem;
 	margin-top: 2rem;
-	margin-right: 5rem;
+	margin-right: 3rem;
 	border-bottom: 2px solid #FFFFFF;
 	
 }
@@ -115,6 +129,9 @@
 footer
 {
 	bottom: 0;
+	right: 0;
+	position: absolute;
+	width: 50%;
 	
 }
 
