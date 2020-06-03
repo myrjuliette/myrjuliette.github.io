@@ -4,12 +4,14 @@
 		<!--commentaires -->
         <meta charset="utf-8" />
 		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="css pour menu.css" />
+		<script type="text/javascript" src="test menu.js"></script>
 		<link href="https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Gentium+Book+Basic:ital,wght@0,400;0,700;1,400;1,700&family=Roboto&family=Yeseva+One&display=swap" rel="stylesheet">
-
+		<link rel="icon" href="favicon.ico" />
         <title>La vie en Gourmandises</title>
     </head>
 
-    <body>
+    <body onload="initElement();">
 		<div id="bloc_page">
 			<header>
 				<section class="bandeau_haut">
@@ -17,28 +19,51 @@
 						<img src="images/logo.png" alt="La vie en Gourmandises"/>
 					</div>
 					<nav>
-						<button class="menu_toggle" aria-controls="menu_principal" aria-expanded="false">Menu</button>
-						<ul>
-							<li><a href="index.html">ACCUEIL</a></li>
-							<li class="menu_deroulant">
-								<a href="#">ARTICLES</a>
-								<ul class="sous">
-									<li><a href="#">Recettes de bases</a></li>
-									<li class="menu_deroulant-2"><a href="#">Recettes</a>
-										<ul class="sous-2">
-											<li><a href="#">Classiques</a></li>
-											<li><a href="#">Créations</a></li>
-											<li><a href="#">Recettes de chef</a></li>
-										</ul>
-									</li>	
-									<li><a href="#">Techniques et produits</a></li>
-								</ul>
-							</li>	
-							<li><a href="#">A PROPOS</a></li>
-							<li><a href="#">CONTACT</a></li>
-						
-						</ul>
-						
+						<a href="#menu" id="toggle"><span></span></a>
+						<div id="menu">
+							<ul id="menu-toggle">
+								<li><a href="index.html">ACCUEIL</a></li>
+								<li class="menu_deroulant">
+									<a href="#">ARTICLES</a>
+									<ul class="sous">
+										<li><a href="#">Recettes de bases</a></li>
+										<li class="menu_deroulant-2"><a href="#">Recettes</a>
+											<ul class="sous-2">
+												<li><a href="#">Classiques</a></li>
+												<li><a href="#">Créations</a></li>
+												<li><a href="#">Recettes de chef</a></li>
+											</ul>
+										</li>	
+										<li><a href="#">Techniques et produits</a></li>
+									</ul>
+								</li>	
+								<li><a href="#">A PROPOS</a></li>
+								<li><a href="#">CONTACT</a></li>
+							
+							</ul>
+						</div>
+						<div id="menu-complet">
+							<ul>
+								<li><a href="index.html">ACCUEIL</a></li>
+								<li class="menu_deroulant">
+									<a href="#">ARTICLES</a>
+									<ul class="sous">
+										<li><a href="#">Recettes de bases</a></li>
+										<li class="menu_deroulant-2"><a href="#">Recettes</a>
+											<ul class="sous-2">
+												<li><a href="#">Classiques</a></li>
+												<li><a href="#">Créations</a></li>
+												<li><a href="#">Recettes de chef</a></li>
+											</ul>
+										</li>	
+										<li><a href="#">Techniques et produits</a></li>
+									</ul>
+								</li>	
+								<li><a href="#">A PROPOS</a></li>
+								<li><a href="#">CONTACT</a></li>
+							
+							</ul>
+						</div>
 					</nav>
 				</section>
 				<div class="bandeau_bas">
